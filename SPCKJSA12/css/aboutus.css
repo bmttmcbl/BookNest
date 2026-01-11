@@ -1,0 +1,44 @@
+/* Giới Thiệu */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #f39c12;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  background: url("https://i.pinimg.com/736x/23/44/7c/23447cf2d17d6962783578c82c11b3b7.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px black;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
