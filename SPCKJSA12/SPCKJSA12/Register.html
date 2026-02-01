@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body class="signup-page">
+    <header >
+        <img src="./image/screenshot_1767513058.png" style="width: 400px;">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm sách...">
+            <button onclick="search()">🔍</button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="pill-bar">
+            <a class="pill" href="./index.html">Home</a>
+            <a class="pill" href="./AboutUs.html">About Us</a>
+            <a class="pill" href="./Products.html">Products</a>
+            <a class="pill" href="./Information.html">Information</a>
+            <a class="pill" href="./Help.html">help</a>
+            <a class="pill" href="./Register.html">Register</a>
+            <a class="pill" href="./Login.html">Login</a>
+        </div>
+    </nav>
+
+<main>
+    <div class="signup-box">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="username" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Đặt Mật khẩu" required>
+            <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu" required>
+            <input type="date" id="birthday" required>
+            <button type="submit">Sign up</button>
+            <p>Đã có tài khoản? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</main>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; © 2026 BookNest. All rights reserved.</p>
+  </footer>
+
+    <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="55L5_EuaUfNI3iV3KPG8v";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+
+  <script src="./script/register.js"></script>
+  <script src="./script/search.js"></script>
+</body>
+</html>

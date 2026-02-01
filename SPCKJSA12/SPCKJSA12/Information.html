@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/information.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header >
+        <img src="./image/screenshot_1767513058.png" style="width: 400px;">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm sách...">
+            <button onclick="search()">🔍</button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="pill-bar">
+            <a class="pill" href="./index.html">Home</a>
+            <a class="pill" href="./AboutUs.html">About Us</a>
+            <a class="pill" href="./Products.html">Products</a>
+            <a class="pill" href="./Information.html">Information</a>
+            <a class="pill" href="./Help.html">Help</a>
+            <a class="pill" href="./Register.html">Register</a>
+            <a class="pill" href="./Login.html">Login</a>
+        </div>
+    </nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>BookNest - Tin Tức</h1>
+  <p>Nơi sẽ cho bạn biết về sách mới, hay, đáng để đọc và nhiều hơn thế nữa</p>
+</section>
+
+    <section id="news" class="news fade-down">
+        <h2>📌 Tin nóng đáng chú ý </h2>
+        <div class="news-container">
+          <div class="news-item">
+            <a href="https://www.ft.com/content/9acdf578-8b66-46de-acdf-0b41a16a250b?utm_source=chatgpt.com">
+              <img src="https://images.ft.com/v3/image/raw/ftcms%3Abfd3dacb-63d9-4a48-bc49-04b7a247472f?source=next-article&fit=scale-down&quality=highest&width=700&dpr=2" alt="">
+              <h3>🏆 Giải thưởng & hợp tác mới</h3>
+            </a>
+            <p>Financial Time   s Book Award – FT đã bắt tay với Standard Chartered tài trợ giải sách kinh doanh của năm 2026, với các đề cử và hạn nộp bài rõ ràng.</p>
+          </div>
+          <div class="news-item">
+            <a href="https://people.com/katie-couric-announces-new-book-club-exclusive-11884123?utm_source=chatgpt.com">
+              <img src="https://people.com/thmb/pCHH914tV9GCAVubNz2oE6qgn8o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(748x366:750x368):format(webp)/katie-couric-011226-5b4938dca58c420b95aacd3f3a3798b9.jpg" alt="">
+              <h3>📚 Câu lạc bộ sách mới</h3>
+            </a>
+            <p>Katie Couric – MC nổi tiếng thông báo thành lập KCBC – câu lạc bộ sách riêng nhằm khuyến khích đọc sách hơn lướt mạng, chọn một cuốn mỗi tháng kèm phỏng vấn tác giả.</p>
+          </div>
+          <div class="news-item">
+            <a href="https://www.independent.co.uk/extras/indybest/books/best-new-books-b2125663.html?utm_source=chatgpt.com">
+              <img src="https://images.openai.com/static-rsc-1/VvurNki-TJn2HiOLYbqCRHfzpV8jywpS8t7mivsU8QDsujR-1SfKJlrzvImvGNkPLM0HtO4xD7ow3e_eMsETV7xvxVHXUGQreLDZksA3tPtdCS5_kfbx14WMs8lzRuksU0hPRkIrpBunU34N1_w_HIs2FaqAFPbCe2uhqe73DZ4" alt="">
+              <h3>📚 Gợi ý đọc</h3>
+            </a>
+            <p>Danh sách 16 sách hay nên đọc mùa đông được giới thiệu, gồm các tác phẩm từ những tác giả nổi tiếng.</p>
+          </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 BookNest. All rights reserved.</p>
+</footer>
+
+<script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="55L5_EuaUfNI3iV3KPG8v";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+<script src="./script/search.js"></script>
+</body>
+</html>

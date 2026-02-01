@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header >
+        <img src="./image/screenshot_1767513058.png" style="width: 400px;">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm sách...">
+            <button onclick="search()">🔍</button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="pill-bar">
+            <a class="pill" href="./index.html">Home</a>
+            <a class="pill" href="./AboutUs.html">About Us</a>
+            <a class="pill" href="./Products.html">Products</a>
+            <a class="pill" href="./Information.html">Information</a>
+            <a class="pill" href="./Help.html">Help</a>
+            <a class="pill" href="./Register.html">Register</a>
+            <a class="pill" href="./Login.html">Login</a>
+        </div>
+    </nav>
+
+    <section id="news" class="news fade-down">
+        <div class="news-container">
+          <div class="news-item">
+            <a href="./Products.html">
+              <img src="https://i.pinimg.com/736x/ba/3b/96/ba3b96bd64f5432a2662e813c120e354.jpg" alt="">
+              <h3>Các sản phẩm bán chạy nhất !!!</h3>
+            </a>
+            <p>Hãy click vào để xem</p>
+          </div>
+          <div class="news-item">
+            <a href="#new-products">
+              <img src="https://i.pinimg.com/736x/d9/f5/6b/d9f56be4558bb2b147c0bd108d97218e.jpg" alt="">
+              <h3>Các sản phẩm mới nhất !!!</h3>
+            </a>
+            <p>Hãy click vào để xem</p>
+          </div>
+        </div>
+    </section>
+
+  <section id="new-products" class="news">
+    <h2 style="margin-bottom:20px;">Các sản phẩm mới nhất</h2>
+    <div class="news-container">
+      <div class="news-item">
+        <a href="https://github.com/quoctinnguyen8/Clean-Code---Tieng-Viet?utm_source=chatgpt.com"><img src="./image/1d69dd02-ea4c-4f86-bbac-4817f1a49053-md.jpeg"></a>
+        <h3>Clean Code</h3>
+        <p>Tác giả: Robert C. Martin</p>
+      </div>
+
+      <div class="news-item">
+        <a href="https://fr.scribd.com/document/956264759/1-Design-Patterns?utm_source=chatgpt.com"><img src="./image/c7661816-e7ef-4b1f-945d-ad018d130c06-md.jpeg"></a>
+        <h3>Design Patterns</h3>
+        <p>Tác giả: Erich Gamma</p>
+      </div>
+
+      <div class="news-item">
+        <a href="https://github.com/getify/You-Dont-Know-JS?utm_source=chatgpt.com"><img src="./image/e4302168-1d96-4580-9c14-4808289a46b8-md.jpeg"></a>
+        <h3>You Don’t Know JS</h3>
+        <p>Tác giả:Kyle Simpson</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="new-products" class="news">
+    <div class="news-container">
+      <div class="news-item">
+        <a href="https://tuvantuyensinh.vn/sach/tam-ly-hoc-mien-phi-nam-bat-kien-thuc-cot-loi-voi-sach-tu-openstax/"><img src="https://tuvantuyensinh.vn/wp-content/uploads/2025/09/Anh-chup-Man-hinh-2025-09-11-luc-14.24.49.jpg"></a>
+        <h3>Psychology</h3>
+        <p>Tác giả: OpenStax</p>
+      </div>
+
+      <div class="news-item">
+        <a href="https://www.tesl-ej.org/books/lomb-2nd-Ed.pdf?utm_source=chatgpt.com"><img src="./image/polyglot.png"></a>
+        <h3>Polyglot: How I Learn Languages</h3>
+        <p>Kató Lomb</p>
+      </div>
+
+      <div class="news-item">
+        <a href="https://dokumen.pub/memory-improvement-book-the-mnemonics.html?utm_source=chatgpt.com"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6o90DHTtJqmH9eqfnMeehH1jnsCVPaTRu9fWojorOovZPmyem"></a>
+        <h3>Memory Improvement Book – The Mnemonics</h3>
+        <p>Tác giả: Andrew Kite</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; © 2026 BookNest. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="55L5_EuaUfNI3iV3KPG8v";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+
+  <script src="./script/search.js"></script>
+</body>
+</html>

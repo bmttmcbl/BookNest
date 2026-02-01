@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/products.css">
+</head>
+<body>
+    <header >
+        <img src="./image/screenshot_1767513058.png" style="width: 400px;">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm sách...">
+            <button onclick="search()">🔍</button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="pill-bar">
+            <a class="pill" href="./index.html">Home</a>
+            <a class="pill" href="./AboutUs.html">About Us</a>
+            <a class="pill" href="./Products.html">Products</a>
+            <a class="pill" href="./Information.html">Information</a>
+            <a class="pill" href="./Help.html">Help</a>
+            <a class="pill" href="./Register.html">Register</a>
+            <a class="pill" href="./Login.html">Login</a>
+        </div>
+    </nav>
+    
+    <div class = "container"></div>
+    
+    <h1>Các sản phẩm bán chạy của chúng tôi!</h1>
+    <div id="product-list"></div>
+
+    <h2>Chi tiết sản phẩm</h2>
+    <div id="product-detail">
+        <p>Chưa chọn sản phẩm nào</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BookNest. All rights reserved.</p>
+    </footer>
+
+    <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="55L5_EuaUfNI3iV3KPG8v";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+    <script src="./script/products.js"></script>
+    <script src="./script/search.js"></script>
+</body>
+</html>
